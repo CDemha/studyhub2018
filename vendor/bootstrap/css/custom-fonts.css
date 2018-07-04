@@ -1,0 +1,24 @@
+@font-face {
+	font-family: MontserratSemiBold;
+	src: url(/vendor/fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: MontserratMedium;
+	src: url(/vendor/fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+	font-family: RalewayBold;
+	src: url(/vendor/fonts/Raleway/Raleway-Bold.ttf);
+}
+
+@font-face {
+	font-family: RalewayMedium;
+	src: url(/vendor/fonts/Raleway/Raleway-Medium.ttf);
+}
+
+@font-face {
+	font-family: RalewayRegular;
+	src: url(/vendor/fonts/Raleway/Raleway-Regular.ttf);
+}

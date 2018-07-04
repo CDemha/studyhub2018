@@ -1,0 +1,309 @@
+* {}
+
+.small-sub-title {
+	font-size: 0.4em;
+	margin: 0px 0px 0px 10px;
+	font-family: 'Raleway';
+	font-weight: 400;
+}
+
+.website-header {
+	display: inline-block;
+	margin: 10px 0px 0px 23px;
+	color: white;
+	width: 45%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 1.6em;
+}
+
+.document-author {
+	margin: 0px 0px 20px 3px;
+
+}
+
+.document-title {
+	background: inherit;
+	border: none;
+
+	margin: -10px 0px -10px 0px;
+	font-size: 1.3em;
+	color: #4691CE;
+	-webkit-transition: .2s;
+}
+
+.document-title:focus {
+	outline: none;
+}
+
+.document-title:hover {
+	cursor: pointer;
+	color: #316590 -webkit-transition: .2s;
+}
+
+.request-feedback-btn {
+	margin: 10px 0px;
+}
+
+#quillEditor {
+	height: 180px;
+	overflow: auto;
+}
+
+.feedback-header-title {
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+}
+
+.feedback-title {
+	font-size: 1.2em;
+}
+
+
+.comment-user {
+	margin: 0px 0px 0px -6px;
+}
+
+.comment-text {
+	font-size: 0.9em;
+	color: black;
+	margin: 0px 0px 0px -6px;
+}
+
+
+.user-profile {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 1.4em;
+	color: #F6F7EB;
+	line-height: 20px;
+	text-align: center;
+	line-height: 50px;
+	background: #393E41;
+	display: inline-block;
+	margin: 20px 40px 0px auto;
+	font-weight: 600;
+	float: right;
+	-webkit-transition: .3s;
+}
+
+.user-profile:hover {
+	color: white;
+	text-decoration: none;
+	background: #272b2d;
+	cursor: pointer;
+	-webkit-transition: .3s;
+}
+
+.blended-background {
+	background: #393E41;
+	border: none;
+}
+
+.octicon-comment {
+	fill: black;
+	float: right;
+/*	background: red;*/
+}
+
+.font-emphasis {
+	font-weight: 600;
+}
+
+.icon-size {
+	width: 32px;
+	height: 32px;
+}
+
+.divider {
+	border-bottom: 1px solid rgba(33, 37, 41, 0.3);
+}
+
+
+.notification-text {
+	display: inline-block;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #FCFCFC
+}
+
+
+.notification-icon {
+	height: auto;
+	display: inline-block;
+	float: right;
+	margin: 27px 10px 0px 0px;
+}
+
+.website-title {
+	font-size: 2em;
+	font-weight: 400;
+	display: inline-block;
+}
+
+.long-sep {
+	height: 2px;
+	background: #4691CE;
+}
+
+
+.container {
+	margin: -20px auto;
+}
+
+.background-panel {
+	background: #3F88C5;
+}
+
+.special-row {
+	margin: 10px;
+}
+
+.group-title {
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 1.8em;
+	color: #F7FFF7;
+}
+
+.group-domain {
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 1.5em;
+	color: #5DB7DE;
+	display: inline-block;
+}
+
+.sub-text-topic {
+	margin: 0px 0px 0px 5px;
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 1.4em;
+	display: inline-block;
+	color: #5DB7DE;
+}
+
+.badge-danger-special {
+	background: #BF412E;
+}
+
+.topic-header {
+	height: 85px;
+	background: #393E41;
+}
+
+.col-4 {
+	margin: 0px 0px 30px 0px
+}
+
+.list-of-docs-title {
+	font-weight: 700;
+	font-size: 1.4em;
+	margin: 0px;
+	font-family: 'Raleway';
+	color: #1A1D1E;
+}
+
+
+.members-online-link {
+	display: inline-block;
+	font-weight: 600;
+	-webkit-transition: .2s;
+
+}
+
+.members-online-link:hover {
+	cursor: pointer;
+	color: #060D12;
+	-webkit-transition: .2s;
+}
+
+.card-img-top {
+	-webkit-transition: .2s;
+}
+
+.card-img-top:hover {
+	cursor: pointer;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+}
+
+.list-group-item:hover {
+	background: lightgray;
+	cursor: pointer;
+	-webkit-transition: .3s;
+}
+
+.notif-item-title {
+	font-size: 1.2em;
+}
+
+.notif-item-body {
+	font-size: 1em;
+	max-width: auto;
+}
+
+.main-topic-container {
+	display: inline-block;
+	margin: 20px 15px 0px 3%;
+}
+
+
+.document {
+	width: 230px;
+	height: 300px;
+	border: 1px solid #b7b7b7;
+	border-bottom: none;
+}
+
+.content-items {
+	margin: 0px 0px 20px 0px;
+}
+
+.center-btn {
+	margin: 25px 0px 0px 0px;
+}
+
+.octicon-bell {
+	fill: #F6F7EB;
+	vertical-align: text-bottom;
+	margin: 0px 5px 0px 0px
+}
+
+.octicon-home {
+	fill: white;
+	vertical-align: middle;
+	background:
+}
+
+.document-info {
+	background: white;
+	height: 70px;
+	width: 230px;
+	border: 1px solid #b7b7b7;
+}
+
+.navigation-header {
+	display: inline-block;
+	width: 45%;
+	color: whitesmoke;
+	text-align: right;
+}
+
+.card-active {
+	border: 2px solid rgba(63, 136, 197, 0.7);
+}
+
+.card-online {
+	border: 2px solid rgba(40, 167, 69, 0.8);
+}
+
+.card-offline {
+	border: 2px solid rgba(118, 122, 127, 0.9);
+}
+
+.footer {
+	/*	margin: 0px 0px 0px 0px;*/
+	height: 10px;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>StudyHUB</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="vendor/bootstrap/css/custom-stylesheet.css" rel="stylesheet">
+	<link href="vendor/bootstrap/css/custom-fonts.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600|Raleway:400,500,700" rel="stylesheet">
+	<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="background-panel">
+		<div class="website-header">
+			<h1 class="website-title">StudyHub<span class="small-sub-title">University of Auckland</span></h1>
+		</div>
+
+		<div class="user-profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">H</div>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+			<h6 class="dropdown-header">Henry Collins</h6>
+			<a class="dropdown-item" href="#">Profile</a>
+			<a class="dropdown-item" href="#">Activity Log</a>
+			<div class="dropdown-divider"></div>
+			<a class="dropdown-item" href="#">Log Out</a>
+		</div>
+		<div class="notification-icon">
+			<div class="btn-group dropright">
+				<button type="button" class="btn btn-dark blended-background" data-toggle="popover" data-html="true" data-placement="left" title="Notifications" data-content="You have no new notifications.">
+					<svg width="18" height="20" class="octicon-bell" viewBox="0 0 14 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M13.99 11.991v1H0v-1l.73-.58c.769-.769.809-2.547 1.189-4.416.77-3.767 4.077-4.996 4.077-4.996 0-.55.45-1 .999-1 .55 0 1 .45 1 1 0 0 3.387 1.229 4.156 4.996.38 1.879.42 3.657 1.19 4.417l.659.58h-.01zM6.995 15.99c1.11 0 1.999-.89 1.999-1.999H4.996c0 1.11.89 1.999 1.999 1.999z"></path></svg>
+					<span class="badge badge-danger-special" style="color: white">0</span>
+				</button>
+			</div>
+		</div>
+		<div class="topic-header" style="height: 50px">
+			<div class="row special-row">
+				<div class="col-sm-auto">
+					<button class="btn btn-warning center-btn btn-sm" style="margin: 10px 0px 0px 0px" onclick="window.open('index.html','_self')" type="submit">Back</button>
+				</div>
+				<div class="col" style="margin: 3px 0px 0px -10px; min-width: 90%">
+					<p class="mb-2"></p>
+					<h4 class="text-left mb-1 group-title" style="display: inline-block; font-size: 1.2em; margin: 0px 10px 0px 0px">Group: 10</h4>
+					<h5 class="text-left mb-1 group-domain" style="font-size: 1.2em;">Physical Education</h5>
+					<h5 class="text-light text-left mb-1 group-domain">|</h5>
+					<h6 class="text-left mb-1 sub-text-topic" style="font-size: 1.2em;">Weight Training for Body Building</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Page Content -->
+	<div class="jumbotron jumbotron-fluid">
+
+		<div class="row">
+			<div class="col-3">
+				<div class="row">
+					<div class="col-1">
+					</div>
+					<div class="col">
+						<h2 class="card-title text-success feedback-header-title">Peer Feedback</h2>
+						<div class="row">
+							<div class="card mb-4">
+								<ul class="list-group list-group-flush">
+									<a href="#" class="list-group-item list-group-item-action list-group-item-primary flex-column align-items-start">
+										<div class="d-flex w-100 justify-content-between">
+											<h6 class="mb-2 feedback-title">Tom Drew</h6>
+											<small>3 days ago</small>
+										</div>
+										<p class="mb-1">Instead of actually writing about Biceps perhaps just add a few notes on Triceps as it is part of the muscle group.</p>
+									</a>
+
+									<a class="btn btn-default text-left" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" id="buttonComments">Comments (2) </a>
+									<div class="collapse multi-collapse " id="multiCollapseExample1">
+										<div class="card card-body border-right-0 border-left-0 border-bottom-0">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-2 mt comment-user"><a href="#">Henry Collins</a></h6>
+												<small>3 days ago</small>
+											</div>
+											<p class="card-text comment-text">Sweet, that sounds good, it does actually make sense to talk about that. I'll do that.
+												<button type="button" class="close" id="close-1" aria-label="Close">
+											  		<span aria-hidden="true">&times;</span>
+												</button>
+											</p>
+										</div>
+										<div class="card card-body border-right-0 border-left-0 border-bottom-0">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-2 mt comment-user"><a href="#">Tom Drew</a></h6>
+												<small>3 days ago</small>
+											</div>
+											<p class="card-text comment-text">Yea no worries, also just make sure to add some pictures and links for reference to make it easier to understand the content.
+												<button type="button" class="close" aria-label="Close">
+											  		<span aria-hidden="true">&times;</span>
+												</button>
+											</p>
+
+										</div>
+
+									</div>
+									<div class="card card-body border-right-0 border-left-0 border-bottom-0">
+										<form id="myForm">
+											<div class="form-group">
+												<textarea class="form-control" id="comment-field-1" placeholder="Enter your comments..." rows="3"></textarea>
+											</div>
+											<button type="button" id="submitComment" class="btn btn-success">Submit Comment</button>
+										</form>
+									</div>
+								</ul>
+							</div>
+							<div class="card">
+								<ul class="list-group list-group-flush">
+									<a href="#" class="list-group-item list-group-item-action list-group-item-info flex-column align-items-start">
+										<div class="d-flex w-100 justify-content-between">
+											<h6 class="mb-2 feedback-title">Dave Frank</h6>
+											<small>3 days ago</small>
+										</div>
+										<p class="mb-1">yo just add this: 'brachii is a two-headed muscle that lies on the upper arm between the shoulder and the elbow.'. I think it might help.</p>
+									</a>
+
+									<a class="btn btn-default text-left" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Comments (1) </a>
+
+									<div class="collapse multi-collapse" id="multiCollapseExample2">
+										<div class="card card-body border-right-0 border-left-0 border-bottom-0">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-2 mt comment-user"><a href="#">Henry Collins</a></h6>
+												<small>3 days ago</small>
+											</div>
+											<p class="card-text comment-text">Thanks ill do that. Got a link for that for reference?
+												<button type="button" id="close-2" class="close" aria-label="Close">
+											  		<span aria-hidden="true">&times;</span>
+												</button>
+											</p>
+										</div>
+
+									</div>
+									<div class="card card-body border-right-0 border-left-0 border-bottom-0">
+										<form>
+											<div class="form-group">
+												<textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your comments..." rows="3"></textarea>
+											</div>
+											<button type="submit" class="btn btn-success">Submit Comment</button>
+										</form>
+									</div>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-5">
+				<div class="row">
+					<div class="col">
+						<h3><input class="document-title" type="text" value="Biceps and Triceps" placeholder="Document Title"></h3>
+						<h6 class="document-author">By Henry Collins</h6>
+					</div>
+					<div class="col-sm-auto">
+						<button type="button" id="requestFeedback" class="btn btn-success btn-lg request-feedback-btn" data-toggle="popover" data-placement="right" data-trigger="focus" data-content="Feedback requested. Highlight what you want feedback on and let others submit their feedback.">Request Feedback</button>
+					</div>
+				</div>
+				<div id="editor" style="background: white; height: 700px;">
+					<p>The biceps is a muscle on the front part of the upper arm. The biceps includes a &ldquo;short head&rdquo; and a &ldquo;long head&rdquo; that work as a single muscle.</p>
+
+					<p>The biceps is attached to the arm bones by tough connective tissues called tendons. The tendons that connect the biceps muscle to the shoulder joint in two places are called the proximal biceps tendons. The tendon that attaches the biceps muscle to the forearm bones (radius and ulna) is called the distal biceps tendon. When the biceps contracts, it pulls the forearm up and rotates it outward.</p>
+
+					<p>Biceps Conditions Biceps strain: A pulled biceps results from overstretching and tearing some of the biceps muscle fibers and/or tendons. Pain and sometimes swelling are the usual symptoms. Proximal biceps tendon rupture: This is when one of the two biceps tendons in the shoulder is torn away from the bone. Sudden shoulder pain and an odd-shaped bulge in the biceps are symptoms. Distal biceps tendon rupture: A tear of the biceps tendon at the forearm is unusual. Sudden pain over the front of the elbow and forearm weakness are symptoms. Proximal biceps tendinitis (tendonitis): Repeated use of the biceps or problems in the shoulder can irritate the proximal biceps tendon. Pain in the shoulder and biceps is the main symptom. Biceps contracture: The biceps becomes permanently contracted, with the elbow bent. Biceps contracture may occur after a severe stroke.</p>
+
+				</div>
+			</div>
+			<div class="col-3">
+
+			</div>
+		</div>
+
+	</div>
+	<!-- Bootstrap core JavaScript -->
+	<script src="vendor/bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+	<script src="vendor/bootstrap/js/popper.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="vendor/bootstrap/js/quill.js"></script>
+	<script type="text/javascript" src="vendor/js/custom-js.js"></script>
+</body>
+
+</html>
